@@ -1,0 +1,76 @@
+{% extends "index.html" %}
+{% load static %}
+{% block title %}
+About | ShieldX - ML Based Credit Card Fraud Detection System
+{% endblock %}
+
+{% block content %}
+<main id="main">
+
+  <!-- Hero Section -->
+  <section id="about-hero" class="about-hero" style="padding: 20px 0;">
+    <div class="container text-center">
+      <h1>ShieldX: ML-Based Credit Card Fraud Detection System</h1>
+      <p>Leveraging Machine Learning and Modern Web Technologies for Enhanced Security</p>
+    </div>
+  </section>
+  
+  <!-- Introduction Section -->
+  <section id="introduction" class="introduction section-bg">
+    <div class="container">
+      <h2>Introduction</h2>
+      <p>In an age where online transactions are routine, the risk of credit card fraud has grown. Our project, ShieldX, addresses this with advanced machine learning algorithms to safeguard financial transactions.</p>
+      <p>Built on a React.js front end for a smooth user experience, ShieldX aims to analyze transaction patterns in real-time, allowing immediate intervention to prevent fraud.</p>
+    </div>
+  </section>
+
+  <!-- Objectives Section -->
+  <section id="objectives" class="objectives">
+    <div class="container">
+      <h2>Project Objectives</h2>
+      <ul>
+        <li><strong>Efficient Fraud Detection:</strong> Real-time detection of suspicious activities using ML.</li>
+        <li><strong>User-Friendly Interface:</strong> React.js-based interface for easy navigation and visualization.</li>
+        <li><strong>Real-Time Monitoring:</strong> Continuous monitoring with instant alerts for suspected fraud.</li>
+        <li><strong>Customizable Settings:</strong> Adjustable parameters for specific risk profiles.</li>
+        <li><strong>Scalable Performance:</strong> Capable of handling large transaction data seamlessly.</li>
+        <li><strong>Backend Integration:</strong> Smooth communication between frontend and backend systems.</li>
+        <li><strong>Enhanced Security:</strong> Compliance with industry standards to protect user data.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team section-bg">
+    <div class="container">
+      <h2>Meet the Team</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <img src="{% static 'assets/img/team/29638.jpg' %}" alt="">
+          <h3>Vedant Singh</h3>
+          <p>Project Lead and Developer</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img src="{% static 'assets/img/team/ut.jpg' %}" alt="">
+          <h3>Utkarsh Awasthi</h3>
+          <p>Developer</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img src="{% static 'assets/img/team/van.jpg' %}" alt="">
+          <h3>Vansh Bhadoria</h3>
+          <p>Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusion Section -->
+  <section id="conclusion" class="conclusion">
+    <div class="container">
+      <h2>Conclusion</h2>
+      <p>ShieldX represents our commitment to enhancing online transaction security through innovation and technology. With this project, we hope to provide users with a powerful tool to detect and prevent fraud, protecting their financial well-being.</p>
+    </div>
+  </section>
+
+</main>
+{% endblock %}

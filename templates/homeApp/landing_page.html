@@ -1,0 +1,128 @@
+{% extends "index.html" %}
+{% load static %}
+{% block title %}
+Home | ShieldX
+{% endblock %}
+
+{% block content %}
+<main id="main">
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+  
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url({% static 'assets/img/slide/slide-1.jpg' %})">
+            <div class="carousel-container">
+              <div class="container" >
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>ShieldX</span></h2>
+                <p class="animate__animated animate__fadeInUp">Complete Solution for credit card fraud detection</p>  </div>
+            </div>
+          </div>
+  
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url({% static 'assets/img/slide/slide-2.jpg' %})">
+            <div class="carousel-container">
+              <div class="container">
+                <h2>Files and User Management</h2>
+                <p class="animate__animated animate__fadeInUp">Management of credit card and files</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url({% static 'assets/img/slide/slide-3.jpg' %})">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Latest Technology And Infrastructure Usage</h2>
+                <p class="animate__animated animate__fadeInUp">Latest Technology And Infrastructure</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+  
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+  
+      </div>
+    </section><!-- End Hero -->
+  
+    </main>
+  
+       <!-- ======= Team Section ======= -->
+       <section id="team" class="team section-bg">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Team</h2>
+            <p>We are learning and growing together. Our team is cold as like ice and our work is  hot as like sun.</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="{% static 'assets/img/team/29638.jpg' %}" alt="">
+                <h4>Vedant Singh</h4>
+                <span>Team Member</span>
+                <p>
+                  "Meet Vedant, a passionate 4th-year BTech Computer Science student with a keen interest in software development and ML. With a strong foundation in programming and problem-solving, he is eager to contribute innovative solutions to the tech world."
+
+
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="{% static 'assets/img/team/ut.jpg' %}" alt="">
+                <h4>Utkarsh Awasthi</h4>
+                <span>Team Member</span>
+                <p>
+                  " Utkarsh is a dedicated 4th-year BTech Computer Science student who thrives on tackling complex algorithms and exploring new technologies. With hands-on experience in web development and data analysis, he is ready to apply his skills in real-world projects."
+
+
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="{% static 'assets/img/team/van.jpg' %}" alt="">
+                <h4>Vansh Bhadoria</h4>
+                <span>Team Member</span>
+                <p>
+                  "With a sharp analytical mindset and a focus on systems design, Vansh is a 4th-year BTech Computer Science student passionate about building scalable solutions. His work in cloud computing and programming languages showcases his ability to adapt to emerging tech trends." </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Team Section -->
+{% endblock %}
